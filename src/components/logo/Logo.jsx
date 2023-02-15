@@ -1,6 +1,4 @@
-const { useState } = require("react")
-
-const Logo = ({type= "default"}) => {
+export default function Logo({type="default"}) {
     return (
         <>
             {type == "default" && <img src="/images/logo.svg" alt="" />}
@@ -8,5 +6,3 @@ const Logo = ({type= "default"}) => {
         </>
     )
 }
-
-export default Logo;
