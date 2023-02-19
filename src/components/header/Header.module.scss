@@ -1,0 +1,19 @@
+@use "../../styles/colors";
+
+
+.headerContainer {
+    background-color: colors.$background_paper;
+    padding: 1rem 0;
+}
+
+.searchPaper {
+    background-color: colors.$background_default !important;
+    align-self: center;
+}
+
+.menuBtn {
+    color: colors.$text_primary !important;
+    font-size: 1rem !important;
+    text-transform: none !important;
+    align-self: center;
+}
