@@ -1,6 +1,6 @@
 import styles from "./Avatar.module.scss";
 
-export default function Avatar({ size = 90, url, verified = true }) {
+export default function Avatar({ size = 90, url, verified = false }) {
   return (
     <div className={styles.avatar} style={{ width: size, height: size }}>
       <img
