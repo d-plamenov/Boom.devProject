@@ -9,7 +9,7 @@ import Avatar from "../avatar/Avatar";
 export default function Copyright() {
   return (
     <div className={classNames(styles.wrapper)}>
-      {/* <Header /> */}
+      <Header />
       <Container className={classNames(styles.container)} maxWidth="xl">
         <Avatar />
         {/* <Paper className={classNames(styles.paper)}>

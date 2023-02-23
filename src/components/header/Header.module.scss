@@ -1,9 +1,19 @@
 @use "../../styles/colors";
 
-
-.headerContainer {
+.Header {
     background-color: colors.$background_paper;
-    padding: 1rem 0;
+    padding: 1.125rem 0;
+}
+
+.searchInput {
+    flex: 1;
+    font-size: 1rem;
+    margin-left: 0.25rem;
+}
+
+.searchIcon {
+    padding: 2px;
+    margin-left: 5px;
 }
 
 .searchPaper {
@@ -11,9 +21,9 @@
     align-self: center;
 }
 
-.menuBtn {
+.menuItem {
     color: colors.$text_primary !important;
-    font-size: 1rem !important;
+    font-size: 0.875rem !important;
     text-transform: none !important;
     align-self: center;
 }
