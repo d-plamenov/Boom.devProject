@@ -1,0 +1,22 @@
+@use "../../styles/colors";
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.description {
+    color: colors.$text_secondary;
+    font-size: 1rem;
+    margin: 20px 0 50px 0;
+}
+
+.button {
+    background-color: colors.$text_primary !important;
+    color: colors.$primary_main !important;
+}

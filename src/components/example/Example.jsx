@@ -9,14 +9,16 @@ import Card from "../card/Card";
 import Trending from "../trending/Trending";
 import Auctions from "../auctions/Auctions";
 import Footer from "../footer/Footer";
+import Step from "../how/Step";
+import How from "../how/How";
 
 export default function Copyright() {
+
   return (
     <div className={classNames(styles.wrapper)}>
-      <Header />
+      <Header/>
       <Container className={classNames(styles.container)} maxWidth="xl">
         {/* <Trending/> */}
-        <Auctions/>
         {/* <Card
           name="Clock"
           mediaUrl="../images/nft.jpg"
