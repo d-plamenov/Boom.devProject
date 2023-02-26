@@ -1,0 +1,42 @@
+@use "../../styles/colors";
+
+.container {
+    padding: 10px;
+}
+
+.media {
+    margin-top: 10px;
+}
+
+.cardContents {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.likes {
+    margin-left: auto;
+    color: colors.$secondary_main !important;
+    border-color: colors.$secondary_main !important;
+
+}
+
+.icon {
+    color: colors.$secondary_main !important;
+    width: 15px !important;
+    margin-left: 10px !important;
+}
+
+.title{
+    color: colors.$text_primary !important;
+    font-size: 1rem;
+    margin: 0px;
+    font-weight: 600 !important;
+}
+
+.price{
+    color: colors.$secondary_main !important;
+    font-size: 0.8rem;
+    margin: 0px;
+    font-weight: 400 !important;
+}

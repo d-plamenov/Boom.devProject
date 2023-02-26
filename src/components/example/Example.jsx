@@ -6,13 +6,19 @@ import classNames from "classnames";
 import Header from "../header/Header";
 import Avatar from "../avatar/Avatar";
 import User from "../user/User";
+import Card from "../card/Card";
 
 export default function Copyright() {
   return (
     <div className={classNames(styles.wrapper)}>
       <Header />
       <Container className={classNames(styles.container)} maxWidth="xl">
-        <User />
+        <Card user={{
+          avatar: {
+            url: "",
+          },
+          verified: true,
+        }} />
         {/* <Paper className={classNames(styles.paper)}>
           <Link href="/about" color="secondary">
             Hi
