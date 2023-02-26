@@ -14,7 +14,6 @@ export default function Copyright() {
       <Container className={classNames(styles.container)} maxWidth="xl">
       <Card
           name="Clock"
-          likes={0}
           mediaUrl="../images/nft.jpg"
           user={{avatar: {url: "",}, verified: true,}}
           price={454545}

@@ -6,7 +6,7 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import millify from "millify";
 
 
-export default function Card({ name, likes, mediaUrl, user, price, currency }) {
+export default function Card({ name, likes=0, mediaUrl, user, price, currency }) {
   return (
     <MuiCard class={styles.card}>
       <CardHeader
