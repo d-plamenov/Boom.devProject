@@ -8,11 +8,12 @@ import Avatar from "../avatar/Avatar";
 import Card from "../card/Card";
 import Trending from "../trending/Trending";
 import Auctions from "../auctions/Auctions";
+import Footer from "../footer/Footer";
 
 export default function Copyright() {
   return (
     <div className={classNames(styles.wrapper)}>
-      {/* <Header /> */}
+      <Header />
       <Container className={classNames(styles.container)} maxWidth="xl">
         {/* <Trending/> */}
         <Auctions/>
@@ -30,6 +31,7 @@ export default function Copyright() {
           </Link>
         </Paper> */}
       </Container>
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,18 @@
+@use "../../styles/colors";
+
+.Footer {
+    background-color: colors.$background_paper;
+    padding: 1rem 0;
+
+}
+
+.copyright {
+    margin: auto;
+    align-self: center;
+    color: colors.$text_disabled;
+}
+
+.menuItem {
+    color: colors.$text_secondary !important;
+    text-transform: none !important;
+}
