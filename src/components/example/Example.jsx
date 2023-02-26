@@ -13,12 +13,18 @@ export default function Copyright() {
     <div className={classNames(styles.wrapper)}>
       {/* <Header /> */}
       <Container className={classNames(styles.container)} maxWidth="xl">
-        <Card user={{
-          avatar: {
+        <Card
+          name="Clock"
+          likes={0}
+          mediaUrl="../images/nft.jpg"
+          user={{avatar: {
             url: "",
           },
-          verified: true,
-        }} />
+            verified: true,
+          }}
+          price={454545}
+          currency="$"
+        />
         {/* <Paper className={classNames(styles.paper)}>
           <Link href="/about" color="secondary">
             Hi
