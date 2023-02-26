@@ -2,6 +2,44 @@
 
 .media {
     margin-top: 10px;
+    
+}
+
+.liveWrapper {
+    width: 309px;
+    position: absolute;
+}
+
+.badge {
+    background-color: colors.$secondary_main !important;
+    position: absolute;
+    bottom: 270px;
+    left: 15px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: black;
+    font-size: 0.65rem;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    width: 10px !important;
+    margin-right: 4px !important;
+}
+
+.countdown {
+    background-color: colors.$secondary_main !important;
+    position: absolute;
+    width: 100% ;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    bottom: 25px;
+    border-radius: 0 0 10px 10px;
+    padding: 5px 0;
+
 }
 
 .cardContent {
