@@ -7,6 +7,7 @@ import Header from "../header/Header";
 import Avatar from "../avatar/Avatar";
 import Card from "../card/Card";
 import Trending from "../trending/Trending";
+import Auctions from "../auctions/Auctions";
 
 export default function Copyright() {
   return (
@@ -14,13 +15,14 @@ export default function Copyright() {
       {/* <Header /> */}
       <Container className={classNames(styles.container)} maxWidth="xl">
         {/* <Trending/> */}
-        <Card
+        <Auctions/>
+        {/* <Card
           name="Clock"
           mediaUrl="../images/nft.jpg"
           user={{avatar: {url: "",}, verified: true,}}
           price={454545}
           currency="$"
-        />
+        /> */}
         {/* <Paper classNam
         {/* <Paper className={classNames(styles.paper)}>
           <Link href="/about" color="secondary">

@@ -14,7 +14,7 @@ export default function Card({
   user,
   price,
   currency,
-  timeLeft = 1,
+  timeLeft,
 }) {
   return (
     <MuiCard class={styles.card}>
