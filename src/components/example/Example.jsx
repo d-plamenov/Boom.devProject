@@ -12,7 +12,7 @@ export default function Copyright() {
     <div className={classNames(styles.wrapper)}>
       {/* <Header /> */}
       <Container className={classNames(styles.container)} maxWidth="xl">
-        <Card
+      <Card
           name="Clock"
           likes={0}
           mediaUrl="../images/nft.jpg"
@@ -20,6 +20,7 @@ export default function Copyright() {
           price={454545}
           currency="$"
         />
+        {/* <Paper classNam
         {/* <Paper className={classNames(styles.paper)}>
           <Link href="/about" color="secondary">
             Hi
