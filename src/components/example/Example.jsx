@@ -14,13 +14,15 @@ import How from "../how/How";
 import Featured from "../featured/Featured";
 import Collector from "../collectors/Collector";
 import CollectorColumn from "../collectors/CollectorColumn";
+import TopCollectors from "../collectors/TopCollectors";
 
 export default function Copyright() {
+
   return (
     <div className={classNames(styles.wrapper)}>
       <Header/>
       <Container className={classNames(styles.container)} maxWidth="xl">
-        <CollectorColumn/>
+        <TopCollectors />
         {/* <Trending/> */}
         {/* <Card
           name="Clock"
